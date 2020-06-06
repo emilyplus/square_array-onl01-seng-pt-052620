@@ -5,6 +5,6 @@ def square_array(array)
   results = []
   array.each do |one_more|
     results.push(one_more**2)
-    results
+    return results
   end
 end
